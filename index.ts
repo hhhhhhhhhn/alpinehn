@@ -52,7 +52,7 @@ function Story(id: string): string {
 			</a>
 			<h2 x-text="\`By \${postData.by}\`"></h2>
 			<h3 x-text="\`Score: \${postData.score}\`"></h3>
-			<a x-bind:href="\`/comments.html?id=\${${id}}\`" class="font-bold" target="_blank">
+			<a x-bind:href="\`./comments.html?id=\${${id}}\`" class="font-bold" target="_blank">
 				Comments
 			</a>
 		</div>
